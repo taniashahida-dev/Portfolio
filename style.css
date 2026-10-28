@@ -1,21 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #1c1917;
+  color: #f5f5f4;
+  font-family: Georgia, "Times New Roman", serif;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 60px 30px;
+}
 header{
     display: flex;
     justify-content: space-between;
-    width: 70%;
+    align-items: center;
    margin-left: auto;
    margin-right: auto;
-   background-color: aquamarine;
-   padding: 20px;
-   border-radius: 30px;
+   background: #24211f;
+   
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid rgba(231, 201, 139, 0.3);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+  
 }
 .logo{
    font-size: 20px;
   font-weight: 700;
+  background-color: chocolate;
+  padding: 10px;
+  border-radius: 20px;
 
 }
 header a {
     text-decoration: none;
-    color: rgb(51, 4, 38);
+    color: #f5f5f4;
+   
  }
  nav{
     display: flex;
